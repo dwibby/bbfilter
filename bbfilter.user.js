@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  Filters bb articles
 // @author       dwibby
-// @match        *://boingboing.net/blog/*
+// @match        *://boingboing.net/blog*
 // @grant        none
 // @run-at       document-idle
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
