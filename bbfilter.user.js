@@ -1,7 +1,7 @@
  // ==UserScript==
 // @name         bbfilter
 // @namespace    https://github.com/dwibby/
-// @version      0.2
+// @version      0.3
 // @description  Filters bb articles
 // @author       dwibby
 // @match        *://boingboing.net/blog*
