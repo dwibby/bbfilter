@@ -1,7 +1,7 @@
  // ==UserScript==
 // @name         bbfilter
 // @namespace    https://github.com/dwibby/
-// @version      0.3
+// @version      0.4
 // @description  Filters bb articles
 // @author       dwibby
 // @match        *://boingboing.net/blog*
@@ -11,5 +11,5 @@
 // ==/UserScript==
 
 $(document).ready(function(){
-  $("a[rel*='author']:contains('Boing Boing\\'s Shop')").parents(".byline").parents("article").hide();
+  $("a.byline:contains('Boing Boing\\'s Shop')").parents("[role='article']").hide();
 });
